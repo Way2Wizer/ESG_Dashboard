@@ -176,10 +176,10 @@ Cleaning and derivation are done via live formulas so each transformation stays 
 * Percent-of-total calculations — Derived on the fly rather than hardcoded:
   
 **excel fromulas**
-  =ROUND((Male Count / Total Employees) * 100, 2)
-  =IFERROR(Scope1+2 / Employees, "")
-  =SUMPRODUCT(--ISNUMBER(SEARCH({"GRI","SASB","TCFD","BRSR","UNGC","Integrated Annual Report","Sustainability Report"}, [TargetCell])))
-  =((MAX(range) - value) / (MAX(range) - MIN(range)) * 100)
+=ROUND((Male Count / Total Employees) * 100, 2)
+=IFERROR(Scope1+2 / Employees, "")
+=SUMPRODUCT(--ISNUMBER(SEARCH({"GRI","SASB","TCFD","BRSR","UNGC","Integrated Annual Report","Sustainability Report"}, [TargetCell])))
+=((MAX(range) - value) / (MAX(range) - MIN(range)) * 100)
 
 ## Limitations (Honest Self-Assessment)
 Peer group limited to 15 Indian textile & apparel manufacturers; scores are peer-relative and not comparable to companies outside this set.
